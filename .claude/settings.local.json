@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(git --version)",
+      "Bash(npm create *)",
+      "Bash(npm config *)",
+      "Bash(curl -s --connect-timeout 5 https://registry.npmjs.org/)",
+      "Bash(unset HTTPS_PROXY HTTP_PROXY http_proxy https_proxy)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(gh auth *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)"
+    ]
+  }
+}
